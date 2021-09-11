@@ -4,8 +4,8 @@
     <h1><b>CONTACT US</b></h1>
     <meta charset="utf-8">
     <title>About Us</title>
-    <a href="../index.html">HOME</a><br>
-    <a href="./about.html">about</a><br>
+    <a href="../index.php">HOME</a><br>
+    <a href="./about.php">about</a><br>
     <a href="#">contact</a>
   </head>
   <body>

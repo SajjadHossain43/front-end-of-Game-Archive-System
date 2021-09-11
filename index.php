@@ -1,3 +1,7 @@
+<?php session_start();
+session_unset();
+session_destroy();
+ ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,14 +11,15 @@
     <title>Game Archive System</title>
     <h1 class="center-al">The New Era Of Simplicity</h1>
     <a href="#">HOME</a><br>
-    <a href="./pages/about.html" target="_blank">about</a><br>
-    <a href="./pages/contact.html" target="_blank">contact</a><br>
+    <a href="./pages/about.php" target="_blank">about</a><br>
+    <a href="./pages/contact.php" target="_blank">contact</a><br>
+    <a href="./pages/admin.php" target="_blank">admin</a>
   </head>
   <body>
 <h3><b>Products we cover</b></h3>
 <ul>
-  <li><a href="./pages/software_products.html">Gaming Softwares and Games</a></li>
-  <li><a href="./pages/gadgets.html">Gaming Gadgets</a></li>
+  <li><a href="./pages/software_products.php">Gaming Softwares and Games</a></li>
+  <li><a href="./pages/gadgets.php">Gaming Gadgets</a></li>
 </ul>
 
 <div class="div_sign">
@@ -23,7 +28,7 @@
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <form name="sign" class="" action="#" method="get" onsubmit="return validate()">
+    <form name="sign" class="" action="./pages/signup_backend.php" method="post" onsubmit="return validate()">
       Username : <input type="text" name="user" value="" required><br>
       Password : <input type="password" name="password" value="" required><br>
       Email : <input type="text" name="email" value="" required><br>
@@ -40,7 +45,7 @@
         <option value="uk">England</option>
         <option value="cn">Canada</option>
       </select>
-      <input type="submit" name="" value="submit">
+      <input type="submit" name="register" value="register">
     </form>
   </div>
 

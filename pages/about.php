@@ -4,9 +4,9 @@
     <h1><b>ABOUT US</b></h1>
     <meta charset="utf-8">
     <title>Contact Us</title>
-    <a href="../index.html">HOME</a><br>
+    <a href="../index.php">HOME</a><br>
     <a href="#">about</a><br>
-    <a href="./contact.html">contact</a>
+    <a href="./contact.php">contact</a>
   </head>
   <body>
 <p>We are a online gaming service provider. We have coypright licenses of every popular gaming companies. We sell games and gadget

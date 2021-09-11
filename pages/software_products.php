@@ -1,12 +1,21 @@
-<!DOCTYPE html>
+<?php session_start();
+if(!isset($_SESSION["user"])||!isset($_SESSION["admin"]))
+{
+  echo "You are not permitted to make a purchase without logging in!!";
+  $url="https://localhost/project/index.php";
+  header("Refresh: 2; URL= $url");
+}
+ ?>
+ <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Games</title>
     <link rel="stylesheet" href="../assets/style.css">
-    <a href="../index.html">HOME</a><br>
-    <a href="about.html" target="_blank">about</a><br>
-    <a href="contact.html" target="_blank">contact</a><br>
+    <a href="../index.php">HOME</a><br>
+    <a href="about.php" target="_blank">about</a><br>
+    <a href="contact.php" target="_blank">contact</a><br>
+    <a href="./add_games.php">add game</a>
     <script>
       src="../assets/function.js"
     </script>
@@ -25,7 +34,6 @@ return true;
 <div class="image">
   <a href="payment.html"><img class="img-link" src="https://upload.wikimedia.org/wikipedia/en/2/2c/Resident_Evil_Village.png" alt="Resident_Evil_Village" style="width:150px height:150px"></a>
     <img class="image__img" src="" alt="Resident_Evil_Village">
-    <!-- <button type="button" onclick="return al()"><a href="payment.html"><img class="img-link" src="https://upload.wikimedia.org/wikipedia/en/2/2c/Resident_Evil_Village.png" alt="Resident_Evil_Village" style="width:150px height:150px"></a></button> -->
     <div class="image__overlay">
         <div class="image__title">Resident_Evil_Village</div>
         <p class="image__description">
