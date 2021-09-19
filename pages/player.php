@@ -18,5 +18,6 @@
       joined_at : <input type="text" name="joined_at" value="">
       <input type="submit" name="player" value="player">
     </form>
+    <a href="./show_player.php">show the table player</a>
   </body>
 </html>

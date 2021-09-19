@@ -13,5 +13,6 @@
       full_name : <input type="text" name="full_name" value="">
       <input type="submit" name="developers" value="developers">
     </form>
+    <a href="./show_developers.php">show the table developers</a>
   </body>
 </html>

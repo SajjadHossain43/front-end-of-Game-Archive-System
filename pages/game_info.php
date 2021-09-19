@@ -13,5 +13,6 @@
       imdb_rating : <input type="text" name="imdb_rating" value="">
       <input type="submit" name="game_info" value="game_info">
     </form>
+    <a href="./show_game_info.php">show the table game_info</a>
   </body>
 </html>

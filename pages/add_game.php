@@ -13,5 +13,6 @@
       series : <input type="text" name="series" value="">
       <input type="submit" name="game" value="game">
     </form>
+    <a href="./show_game.php">show the table game</a>
   </body>
 </html>

@@ -1,10 +1,13 @@
-<?php session_start();
-if(!isset($_SESSION["user"])||!isset($_SESSION["admin"]))
+<?php
+/*if()
 {
-  echo "You are not permitted to make a purchase without logging in!!";
+  //echo "string";
+  $v = $_SESSION['user'];
+  echo $v;
+  echo "You are not permitted to make a purchase without logging in2!!";
   $url="https://localhost/project/index.php";
   header("Refresh: 2; URL= $url");
-}
+}*/
  ?>
  <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -15,7 +18,7 @@ if(!isset($_SESSION["user"])||!isset($_SESSION["admin"]))
     <a href="../index.php">HOME</a><br>
     <a href="about.php" target="_blank">about</a><br>
     <a href="contact.php" target="_blank">contact</a><br>
-    <a href="./add_games.php">add game</a>
+    <a href="./show_games.php">show all available games</a>
     <script>
       src="../assets/function.js"
     </script>

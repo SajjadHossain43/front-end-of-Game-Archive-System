@@ -31,8 +31,6 @@ if (isset($_POST['register'])) {
   $run_query =  mysqli_query($conn, $check_email_query);
   if (mysqli_num_rows($run_query) == 1) {
     echo "Welcome ".$user_name;
-    session_start();
-    $_SESSION["user"]=$user_name;
     $url="https://localhost/project/pages/login_backend.php";
     header("Refresh: 2; URL= $url");
     return 0;
@@ -44,8 +42,6 @@ if (isset($_POST['register'])) {
 
    if(mysqli_query($conn, $insert_user)){
      echo "Successfully signed up and logged in!";
-     session_start();
-     $_SESSION["user"]=$user_name;
      $url="https://localhost/project/pages/login_backend.php";
      header("Refresh: 2; URL= $url");
    }

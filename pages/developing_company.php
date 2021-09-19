@@ -13,5 +13,6 @@
       address : <input type="text" name="address" value="">
       <input type="submit" name="developing_company" value="developing_company">
     </form>
+    <a href="./show_developing_company.php">show the table developing_company</a>
   </body>
 </html>

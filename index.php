@@ -18,8 +18,8 @@ session_destroy();
   <body>
 <h3><b>Products we cover</b></h3>
 <ul>
-  <li><a href="./pages/software_products.php">Gaming Softwares and Games</a></li>
-  <li><a href="./pages/gadgets.php">Gaming Gadgets</a></li>
+  <!-- <li><a href="./pages/software_products.php">Gaming Softwares and Games</a></li>
+  <li><a href="./pages/gadgets.php">Gaming Gadgets</a></li> -->
 </ul>
 
 <div class="div_sign">

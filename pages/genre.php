@@ -11,5 +11,6 @@
       name : <input type="text" name="name" value="">
       <input type="submit" name="genre" value="genre">
     </form>
+    <a href="./show_genre.php">show the table genre</a>
   </body>
 </html>

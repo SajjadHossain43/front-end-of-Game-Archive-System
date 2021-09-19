@@ -13,5 +13,6 @@
       age_limit : <input type="text" name="age_limit" value="">
       <input type="submit" name="type" value="type">
     </form>
+    <a href="./show_type.php">show the table type</a>
   </body>
 </html>
